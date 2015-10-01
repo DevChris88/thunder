@@ -7,7 +7,7 @@ body{
 
 .fixedwidth{
 	margin: 0 auto;
-	width: 1100px;
+	width: 1000px;
 	
 }
 
@@ -27,6 +27,8 @@ background-color: #3a3a3a;
 	height: 45px;
 }
 
+}
+
 #menu ul{
 	background-color: #3a3a3a;
 	padding: 0;
@@ -36,21 +38,21 @@ float: left;
 }
 #menu li{
 	
-	font-size: 15px;
-	font-family: impact;
+	font-size: 12px;
+	font-family: Verdana;
 	color: white;
 	margin: 0;
 	
 	border-right: solid white 0.5px;
-	
+	font-weight: bold;
 list-style: none;
 float: left;
-padding:12px 10px 12px 10px;
+padding:14px 10px 12px 10px;
 
 }
 
 #news{
-	margin-top: 30px;
+	margin: 30px 0 0 20px;
 	float: left;
 
 width: 60%;
@@ -58,19 +60,21 @@ height: 3700px;
 }
 
 #rightinfo{
-margin-top: 30px;
+margin: 35px 0 0 30px;
 
-float: right;
+float: left;
 
-height: 500px;
+height: 400px;
+width: 320px;
+
 
 
 }
 
-#hnews{
-	padding: 0 0 20px 0;
+#hnews{float: left;
+	padding: 0 0 15px 0;
 margin: 0;
-
+font-family: Tahoma;
 }
 
 .date{
@@ -78,13 +82,16 @@ margin: 0;
 float: left;
 	color: #A0A0A0 ;
 	padding: 0 0 8px 0;
+	clear: both;
 }
 
 .Ntitles{
+	font-size: 21px;
+	clear: both;
 float: left;
-color: #0066FF;
+color: #3399FF;
 padding:  0 0 8px 0;
-margin: 0;
+margin: 0;font-family: Tahoma;
 
 }
 
@@ -108,4 +115,77 @@ padding: 0;
 	;
 	clear: both;
 	
+}
+
+#wowline{
+float: right;
+margin: 0;
+padding: 12px 0 0 0 ;
+height: 25px;
+width: 400px;
+}
+
+
+#homeli{
+    height: 20px;
+	
+padding: 0;
+	margin: 0;
+
+	}
+
+#home{
+	height: 45px;
+	float: left;
+position: relative;
+margin: 0;
+top: -14px;
+width: 60px;
+padding: 0;
+left: 10px;
+}
+
+h3{
+	margin: 0;
+font-weight: bold;
+font-size: 20px;
+font-family: Verdana;
+
+
+
+}
+
+#searchline{
+float: right;
+margin: -20px 10px 0 0 ;
+padding:0;
+height: 15px;
+width: 230px;
+
+}
+
+#searchwow{
+margin: 5px 0px 0px 10px;
+padding-bottom: 18px;
+
+}
+
+#searchline2{
+float: right;
+margin: -20px 10px 0px 10px ;
+padding:0;
+height: 15px;
+width: 190px;
+
+}
+
+ ul li{
+
+	margin: 5px;
+
+}
+
+ul li span{
+
+	color:#3399FF;
 }
